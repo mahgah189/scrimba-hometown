@@ -1,0 +1,119 @@
+body {
+    background-color: #F1FAEE;
+    margin: 0;
+    padding: 0;
+}
+
+/* navbar styling */
+
+.navbar {
+    width: 100%;
+    background-color: #E63946;
+}
+
+.navbtns {
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    height: 70px;
+    margin: 0;
+}
+
+.navbtn {
+    height: 70px;
+    background-color: #E63946;
+    border: 0;
+    text-align: center;
+    padding: 0 50px;
+    color: #f9f9f9;
+    font-family: 'Roboto', sans-serif;
+    font-size: 90%;
+    cursor: pointer;
+}
+
+.navbtn:hover {
+    background-color: #f1969e;
+}
+
+/* cover banner styling */
+
+.banner {
+    max-height: 600px;
+    overflow: hidden;
+    position: relative;
+}
+
+.landmark-img {
+    width: 100vw;
+    max-height: 100%;
+    object-fit: cover;
+}
+
+.landmark-txt {
+    position: absolute;
+    bottom: 10%;
+    left: 0%;
+    background-color: rgba(242, 242, 242, 0.75);
+    color: black;
+    font-family: 'Kanit', sans-serif;
+    padding: 50px 100px;
+}
+
+/* landmark section styling */
+
+.landmark-details {
+    display: flex;
+    margin: 150px auto;
+    justify-content: center;
+    align-items: center;
+    gap: 100px;
+    font-family: 'Kanit', sans-serif;
+}
+
+.book-btn {
+    height: 50px;
+    padding: 10px 25px;
+    background-color: #1D3557;
+    border: 0;
+    color: whitesmoke;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+    cursor: pointer;
+}
+
+.btn-tip {
+    font-size: 70%;
+}
+
+.warning {
+    font-size: 70%;
+}
+
+/* footer styling */
+
+.footer {
+    width: 100%;
+    background-color: #A8DADC;
+    padding: 20px;
+}
+
+.footbtns {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+}
+
+.footbtn {
+    height: 40px;
+    background-color: #A8DADC;
+    border: 0;
+    text-align: center;
+    color: black;
+    font-family: 'Roboto', sans-serif;
+    font-size: 80%;
+    cursor: pointer;
+}
+
+.footbtn:hover {
+    text-decoration: underline;
+}

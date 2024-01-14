@@ -1,0 +1,101 @@
+body {
+    background-color: #F1FAEE;
+    margin: 0;
+    padding: 0;
+}
+
+/* navbar styling */
+
+.navbar {
+    width: 100%;
+    background-color: #E63946;
+}
+
+.navbtns {
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    height: 70px;
+    margin: 0;
+}
+
+.navbtn {
+    height: 70px;
+    background-color: #E63946;
+    border: 0;
+    text-align: center;
+    padding: 0 50px;
+    color: #f9f9f9;
+    font-family: 'Roboto', sans-serif;
+    font-size: 90%;
+    cursor: pointer;
+}
+
+.navbtn:hover {
+    background-color: #f1969e;
+}
+
+/* about section */
+
+.about-card {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 40px 50px;
+    gap: 100px;
+    margin: 100px auto;
+    overflow: hidden;
+    background-size: cover;
+    background-image: linear-gradient(rgba(29, 53, 87, 0.85), rgba(29, 53, 87, 0.9)), url(image-assets/phillycathedral.jpeg)
+}
+
+.about-pic {
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+}
+
+.about-desc {
+    width: 600px;
+    font-family: 'Kanit', sans-serif;
+    color: whitesmoke;
+    text-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
+    font-size: 90%;
+}
+
+.gpt-warning {
+    font-size: 70%;
+    font-style: italic;
+}
+
+/* footer styling */
+
+.footer {
+    width: 100%;
+    background-color: #A8DADC;
+    padding: 20px;
+}
+
+.footbtns {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+}
+
+.footbtn {
+    height: 40px;
+    background-color: #A8DADC;
+    border: 0;
+    text-align: center;
+    color: black;
+    font-family: 'Roboto', sans-serif;
+    font-size: 80%;
+    cursor: pointer;
+}
+
+.footbtn:hover {
+    text-decoration: underline;
+}
